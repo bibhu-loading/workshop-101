@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import SearchInput from './components/InputComponent';
+export const RoleContext = React.createContext();
 function App() {
   return (
-    <div>
-      Welcome to Quiz-App!!!
-      hey, dev hackers !!!
-    </div>
+  <>
+    <SearchInput />
+  </>
   );
 }
 
